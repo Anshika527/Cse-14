@@ -1,0 +1,59 @@
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Student Registration Form </title> 
+</head> 
+<body> 
+<h1 align="center">Student Registration Form</h1> 
+<form action="#" method="post"> 
+<!-- Name --> 
+<label for="fullname">Full Name:</label> 
+<input type="text" id="fullname" name="fullname" placeholder="enter your full name"required> 
+<br><br> 
+<!-- Email --> 
+<label for="email">Email:</label> 
+<input type="email" id="email" name="email" placeholder="enter valid email address" required>
+   <br><br> 
+ 
+        <!-- Password --> 
+        <label for="Password">Password:</label> 
+        <input type="password" id="password" name="Password" placeholder="enter password " required> 
+        <br><br> 
+
+        <!--Gender (Radio Buttons)-->
+        <label>Gender:</label>
+        <input type="radio" name="gender"value="male"required>male
+        <input type="radio" name="gender"value="female">Female
+        <br><br>
+        
+        <!-- course --> 
+        <label for="course">course:</label> 
+        <select name="course" required>
+            <option value="">--select</option>
+            <option value="Btech">Btech</option> 
+            <option value="MCA">MCA</option> 
+            <option value="Mtech">Mtech</option> 
+            <option value="MBA">MBA</option>
+        </select> 
+        <br><br>
+
+        <!--contact no.-->
+        <label>contact no.</label>
+        <input type="tel" name="contact" placeholder="enter phone number"required>
+        <br><br>
+ 
+        <!-- ADDRESS --> 
+        <label for="ADDRESS">ADDRESS:</label><br> 
+        <textarea id="ADDRESS" name="ADDRESS" placeholder="enter your address"rows="4" cols="40"></textarea> 
+        <br><br> 
+ 
+        <!-- Buttons --> 
+        <input type="submit" value="Register"> 
+        <input type="reset" value="Clear"> 
+ 
+    </form> 
+    <p align="center">&copy:2025 Student Registration Portal</p>
+ 
+</body> 
+</html>
